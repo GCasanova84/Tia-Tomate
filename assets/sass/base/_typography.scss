@@ -1,0 +1,50 @@
+.slogan-start {
+  h2 {
+    @include font($raleway, $xx-large, $fw-extra-light, $white)
+  }
+}
+.slogan-end {
+  h2 {
+    @include font($raleway, $xx-large, $fw-bold, $white)
+  }
+}
+.first-article__text {
+  &__title {
+    h1 {
+        @include font($raleway, $large, $fw-bold, $white)
+    }
+  }
+  &__paragraph {
+    p {
+        @include font($raleway, $medium, $fw-regular, $white)
+    }
+  }
+}
+.second-article__text {
+  &__title {
+    h3 {
+        @include font($raleway, $large, $fw-bold, $granite-gray)
+    }
+  }
+  &__paragraph {
+    p {
+        @include font($raleway, $medium, $fw-regular, $granite-gray)
+    }
+  }
+}
+.about-us {
+  h4 {
+    @include font($raleway, $xx-large, $fw-bold, $white)
+  }
+  h3 {
+    @include font($raleway, $large, $fw-bold, $granite-gray)
+  }
+  p {
+    @include font($raleway, $medium, $fw-regular, $granite-gray)
+  }
+}
+.contact {
+  h4 {
+    @include font($raleway, $x-large, $fw-bold, $white)
+  }
+}

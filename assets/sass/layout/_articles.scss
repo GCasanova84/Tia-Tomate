@@ -1,0 +1,9 @@
+.article-container {
+  & .first-article {
+    background-color: $taupe-gray;
+
+  }
+  & .second-article {
+    background-color: $snow;
+  }
+}
