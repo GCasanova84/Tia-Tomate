@@ -1,9 +1,30 @@
 .article-container {
   & .first-article {
     background-color: $taupe-gray;
-
+    padding: 5rem 8rem 3rem 8rem;
+    &__text {
+      margin-top: 2rem;
+      h1 {
+        text-align: center;
+      }
+      p {
+        width: 50rem;
+        margin: 2rem auto 0 auto;
+      }
+    }
   }
   & .second-article {
     background-color: $snow;
+    padding: 5rem 8rem 3rem 8rem;
+    &__text {
+      margin-top: 2rem;
+      h3 {
+        text-align: center;
+      }
+      p {
+        width: 50rem;
+        margin: 2rem auto 0 auto;
+      }
+    }
   }
 }

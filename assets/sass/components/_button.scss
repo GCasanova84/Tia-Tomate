@@ -1,0 +1,23 @@
+.contact__button {
+  & .button {
+    background-color: $white;
+    border-radius: 5rem;
+    border: none;
+    &--big {
+      padding: 0.5rem 7rem;
+      @include font($raleway, $large, $fw-bold, $granite-gray);
+    }
+    &--large {
+      padding: 0.5rem 5rem;
+      @include font($raleway, $medium, $fw-bold, $granite-gray);
+    }
+    &--medium {
+      padding: 0.5rem 3rem;
+      @include font($raleway, $medium, $fw-bold, $granite-gray);
+    }
+    &--small {
+      padding: 0.3rem 1rem;
+      @include font($raleway, $medium, $fw-bold, $granite-gray);
+    }
+  }
+}

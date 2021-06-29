@@ -1,8 +1,14 @@
 .header {
   &__brand {
     background-color: $white;
+    padding: 1rem 5rem;
+    & .brand {
+      width: 20rem;
+    }
   }
   &__slogan {
     background-color: $jelly-bean;
+    text-align: center;
+    padding: 10rem 5rem;
   }
 }
